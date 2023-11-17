@@ -76,4 +76,11 @@ src="https://github-profile-trophy.vercel.app/?username=minhhuunguyen&theme=radi
 <img src="https://profile-counter.glitch.me/minhhuunguyen/count.svg"/>
 
 
-# Interested in my project? Please give my repositories some stars ⭐ ⭐ ⭐!
+# Interested in my project?
+# Please give my repositories some stars ⭐ ⭐ ⭐!
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
+</picture>
