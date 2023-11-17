@@ -52,11 +52,28 @@
 
 
 ### 📊 My Github stats
-<!-- https://github.com/anuraghazra/github-readme-stats -->
 
-[![My GitHub stats](https://github-readme-stats.vercel.app/api?username=minhhuunguyen&show=reviews,prs_merged,prs_merged_percentage&show_icons=true&theme=radical&hide_title=true&include_all_commits=true&line_height=30)](https://github.com/anuraghazra/github-readme-stats)
+<img
+height=250
+src="https://github-readme-stats.vercel.app/api?username=minhhuunguyen&show=reviews,prs_merged,prs_merged_percentage&show_icons=true&theme=radical&hide_title=true&include_all_commits=true&line_height=30"
+/>
+<img
+height=250
+src="https://github-readme-stats.vercel.app/api/top-langs/?username=minhhuunguyen&theme=radical&line_height=40&layout=compact&langs_count=20"
+/>
+
+<img
+height=200
+src="https://github-readme-streak-stats.herokuapp.com/?user=minhhuunguyen&theme=radical&card_width=250&hide_current_streak=true"
+/>
+<img
+height=200
+src="https://github-profile-trophy.vercel.app/?username=minhhuunguyen&theme=radical&column=5"
+/>
+
+### 👀 Visitor count
+
+<img src="https://profile-counter.glitch.me/minhhuunguyen/count.svg"/>
 
 
-<!-- Reference:
-https://github.com/coreybutler/coreybutler/blob/master/README.md
-https://github.com/honghanhh/honghanhh/blob/master/README.md -->
+# Interested in my project? Please give my repositories some stars ⭐ ⭐ ⭐!
