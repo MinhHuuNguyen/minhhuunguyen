@@ -1,5 +1,5 @@
 ## Hi, my name is Minh Huu Nguyen...
-### You can call me Minh, or Daby, or Rabbitaan, or whatever you want 😄
+### You can call me Minh, or Daby, or Rabbitaan, or whatever you want 😄 😄
 
 ### 🌱 I’m currently working as
 - ✅ **`AI Engineer`** at [**`PIXTA VIETNAM`**](https://pixta.vn/) 🤖 🤖 🤖
