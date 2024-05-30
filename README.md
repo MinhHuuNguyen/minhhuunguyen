@@ -6,7 +6,6 @@
 - ✅ **`Data Science Lecturer`** at [**`MCI VIETNAM`**](https://mcivietnam.com/) and [**`PROTONX`**](https://protonx.io/) 📚 📚 📚
 - ✅ **`Founder`**, **`Leader`** and **`Social Volunteer`** at [**`KHOANG TROI CUA BE`**](http://khoangtroicuabe.org/) 🚀 🚀 🚀
 
-
 ### 🛠️ Techstack
 [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&style=flat-square&logoColor=white)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&style=flat-square&logoColor=white)](https://pytorch.org/)
@@ -41,7 +40,6 @@
 [![Trello](https://img.shields.io/badge/Trello-0079BF?logo=trello&style=flat-square&logoColor=white)](https://trello.com/)
 [![Jira](https://img.shields.io/badge/Jira-0052CC?logo=jira&style=flat-square&logoColor=white)](https://www.atlassian.com/software/jira)
 
-
 ### 📫 How to reach me
 <!-- https://img.shields.io/badge/ + "<BRAND_NAME>-<COLOR_CODE>?logo=<BRAND_NAME>"-->
 
@@ -49,7 +47,6 @@
 [![GitHub](https://img.shields.io/badge/GitHub-black?logo=github)](https://github.com/MinhHuuNguyen)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077b5?logo=linkedin)](https://github.com/MinhHuuNguyen)
 [![Facebook](https://img.shields.io/badge/Facebook-1877F2?logo=facebook)](https://www.facebook.com/minhhuunguyen1511/)
-
 
 ### 📊 My Github stats
 
@@ -74,7 +71,6 @@ src="https://github-profile-trophy.vercel.app/?username=minhhuunguyen&theme=radi
 ### 👀 Visitor count
 
 <img src="https://profile-counter.glitch.me/minhhuunguyen/count.svg"/>
-
 
 # Interested in my project?
 # Please give my repositories some stars ⭐ ⭐ ⭐!
