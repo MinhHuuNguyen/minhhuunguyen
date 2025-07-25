@@ -40,19 +40,19 @@ is_published: true
 #### 📊 My Github stats
 
 <p style="float: left;">
-  <img src="https://github-readme-stats.vercel.app/api?username=minhhuunguyen&show=reviews,prs_merged,prs_merged_percentage&show_icons=true&theme=radical&hide_title=true&include_all_commits=true&line_height=30" style="height: 250px;"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=minhhuunguyen&show=reviews,prs_merged,prs_merged_percentage&show_icons=true&theme=radical&hide_title=true&include_all_commits=true&line_height=30" style="height: 230px;"/>
 </p>
 <p style="float: right;">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=minhhuunguyen&theme=radical&line_height=40&layout=compact&langs_count=20" style="height: 250px;"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=minhhuunguyen&theme=radical&line_height=40&layout=compact&langs_count=20" style="height: 230px;"/>
 </p>
 
 <br style="clear: both;"/>
 
 <p style="float: left;">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=minhhuunguyen&theme=radical&card_width=250&hide_current_streak=true" style="height: 213px;"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=minhhuunguyen&theme=radical&card_width=250&hide_current_streak=true" style="height: 200px;"/>
 </p>
 <p style="float: right;">
-  <img src="https://github-profile-trophy.vercel.app/?username=minhhuunguyen&theme=radical&column=5" style="height: 213px;"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=minhhuunguyen&theme=radical&column=5" style="height: 200px;"/>
 </p>
 
 <br style="clear: both;"/>
