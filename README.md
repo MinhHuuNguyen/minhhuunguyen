@@ -1,26 +1,40 @@
+---
+time: 11/15/1997
+title: My GitHub Stats
+description: 🌱 I’m currently working as AI Engineer at PIXTA VIETNAM 🤖, Data Science Lecturer at MCI VIETNAM and PROTONX 📚, Founder, Leader and Social Volunteer at KHOANG TROI CUA BE 🚀
+banner_url: https://raw.githubusercontent.com/MinhHuuNguyen/minhhuunguyen/refs/heads/master/banner.png
+tags: []
+is_highlight: false
+is_published: true
+---
+
 ## Hi, my name is Minh Huu Nguyen...
 
-### 🌱 I’m currently working as
+#### 🌱 I’m currently working as
 - ✅ **`AI Engineer`** at [**`PIXTA VIETNAM`**](https://pixta.vn/) 🤖 🤖 🤖
 - ✅ **`Data Science Lecturer`** at [**`MCI VIETNAM`**](https://mcivietnam.com/) and [**`PROTONX`**](https://protonx.io/) 📚 📚 📚
 - ✅ **`Founder`**, **`Leader`** and **`Social Volunteer`** at [**`KHOANG TROI CUA BE`**](http://khoangtroicuabe.org/) 🚀 🚀 🚀
 
-### 📫 How to reach me
+#### 📫 How to reach me
 <!-- https://img.shields.io/badge/ + "<BRAND_NAME>-<COLOR_CODE>?logo=<BRAND_NAME>"-->
 
 [![Gmail](https://img.shields.io/badge/Gmail-white?logo=gmail)](mailto:minhhuunguyen1511@gmail)
+
 [![GitHub](https://img.shields.io/badge/GitHub-black?logo=github)](https://github.com/MinhHuuNguyen)
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077b5?logo=linkedin)](https://github.com/MinhHuuNguyen)
+
 [![Facebook](https://img.shields.io/badge/Facebook-1877F2?logo=facebook)](https://www.facebook.com/minhhuunguyen1511/)
 
-and my personal [website](https://minhhuunguyen.github.io/).
+[![Static Badge](https://img.shields.io/badge/My_Personal-Website-blue)](https://minhhuunguyen.github.io/)
 
-### 📊 My Github stats
+#### 📊 My Github stats
 
 <img
 height=250
 src="https://github-readme-stats.vercel.app/api?username=minhhuunguyen&show=reviews,prs_merged,prs_merged_percentage&show_icons=true&theme=radical&hide_title=true&include_all_commits=true&line_height=30"
 />
+
 <img
 height=250
 src="https://github-readme-stats.vercel.app/api/top-langs/?username=minhhuunguyen&theme=radical&line_height=40&layout=compact&langs_count=20"
@@ -30,13 +44,15 @@ src="https://github-readme-stats.vercel.app/api/top-langs/?username=minhhuunguye
 height=200
 src="https://github-readme-streak-stats.herokuapp.com/?user=minhhuunguyen&theme=radical&card_width=250&hide_current_streak=true"
 />
+
 <img
 height=200
 src="https://github-profile-trophy.vercel.app/?username=minhhuunguyen&theme=radical&column=5"
 />
 
-# Interested in my project?
-# Please give my repositories some stars ⭐ ⭐ ⭐!
+### Interested in my project?
+
+### Please give my repositories some stars ⭐ ⭐ ⭐!
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg">
