@@ -1,7 +1,7 @@
 ---
 time: 11/15/1997
 title: My GitHub Stats
-description: 🌱 I’m working as AI Engineer at PIXTA VIETNAM 🤖, Data Science Lecturer at MCI VIETNAM and PROTONX 📚
+description: 🌱 AI Engineer at PIXTA VIETNAM 🤖, Lecturer at MCI VIETNAM and PROTONX 📚
 banner_url: https://raw.githubusercontent.com/MinhHuuNguyen/minhhuunguyen/refs/heads/master/banner.png
 tags: []
 is_highlight: false
