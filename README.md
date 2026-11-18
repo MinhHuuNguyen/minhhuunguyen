@@ -19,7 +19,7 @@ is_published: true
 <!-- https://img.shields.io/badge/ + "<BRAND_NAME>-<COLOR_CODE>?logo=<BRAND_NAME>"-->
 
 <div style="display: flex; gap: 10px; flex-wrap: wrap; align-items: center; justify-content: center;">
-  <a href="mailto:minhhuunguyen1511@gmail">
+  <a href="mailto:minhhuunguyen1511@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-white?logo=gmail" alt="Gmail">
   </a>
   <a href="https://github.com/MinhHuuNguyen">
