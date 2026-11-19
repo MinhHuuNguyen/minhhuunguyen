@@ -25,7 +25,7 @@ is_published: true
   <a href="https://github.com/MinhHuuNguyen">
     <img src="https://img.shields.io/badge/GitHub-black?logo=github" alt="GitHub">
   </a>
-  <a href="https://github.com/MinhHuuNguyen">
+  <a href="https://www.linkedin.com/in/minhhuunguyen/">
     <img src="https://img.shields.io/badge/LinkedIn-0077b5?logo=linkedin" alt="LinkedIn">
   </a>
   <a href="https://www.facebook.com/minhhuunguyen1511/">
