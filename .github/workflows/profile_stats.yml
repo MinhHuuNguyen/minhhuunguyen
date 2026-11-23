@@ -30,7 +30,7 @@ jobs:
       - name: metrics stats
         uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           user: ${{ github.repository_owner }}
           template: classic
           base: activity, community
@@ -40,7 +40,7 @@ jobs:
       - name: metrics languages
         uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           user: ${{ github.repository_owner }}
           template: classic
           base: ""
@@ -51,7 +51,7 @@ jobs:
       - name: metrics streak
         uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           user: ${{ github.repository_owner }}
           template: classic
           base: ""
@@ -63,7 +63,7 @@ jobs:
       - name: metrics achievements
         uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           user: ${{ github.repository_owner }}
           template: classic
           base: ""
