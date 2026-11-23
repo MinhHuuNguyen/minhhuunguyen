@@ -1,0 +1,80 @@
+name: generate profile images
+on:
+  # run automatically every 24 hours
+  schedule:
+    - cron: "0 0 * * *"
+  # allows to manually run the job at any time
+  workflow_dispatch:
+  # TEMPORARY: lets the workflow run from the test branch; remove before merging
+  push:
+    branches:
+      - refactor/profile-stats
+permissions: {}
+concurrency:
+  group: profile-stats
+  cancel-in-progress: false
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - name: snake
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+      - name: metrics stats
+        uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: ${{ github.repository_owner }}
+          template: classic
+          base: activity, community
+          output_action: none
+          filename: metrics-stats.svg
+          plugins_errors_fatal: yes
+      - name: metrics languages
+        uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: ${{ github.repository_owner }}
+          template: classic
+          base: ""
+          plugin_languages: yes
+          output_action: none
+          filename: metrics-languages.svg
+          plugins_errors_fatal: yes
+      - name: metrics streak
+        uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: ${{ github.repository_owner }}
+          template: classic
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+          output_action: none
+          filename: metrics-streak.svg
+          plugins_errors_fatal: yes
+      - name: collect renders
+        run: |
+          mkdir -p dist
+          sudo cp /metrics_renders/*.svg dist/
+          ls -l dist
+      - name: assert all five images exist
+        run: |
+          for f in github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg metrics-stats.svg metrics-languages.svg metrics-streak.svg; do
+            test -s "dist/$f" || { echo "::error::missing $f"; exit 1; }
+          done
+      # replaces the whole output branch with the content of dist
+      - name: push images to the output branch
+        uses: crazy-max/ghaction-github-pages@c0d7ff0487ee0415efb7f32dab10ea880330b1dd # v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
