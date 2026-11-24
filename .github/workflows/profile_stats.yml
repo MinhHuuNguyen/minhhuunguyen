@@ -70,6 +70,8 @@ jobs:
           plugin_achievements: yes
           plugin_achievements_display: compact
           plugin_achievements_threshold: C
+          retries: 1
+          retries_delay: 0
           output_action: none
           filename: metrics-achievements.svg
           plugins_errors_fatal: yes
