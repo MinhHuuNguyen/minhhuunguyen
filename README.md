@@ -36,7 +36,6 @@
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/MinhHuuNguyen/minhhuunguyen/output/metrics-streak.svg" height="200" alt="Contribution streak">
-  <img src="https://github-profile-trophy.vercel.app/?username=minhhuunguyen&theme=radical&column=5" height="200" alt="GitHub trophies">
 </p>
 
 ## Interested in my project?
