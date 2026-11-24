@@ -5,10 +5,6 @@ on:
     - cron: "0 0 * * *"
   # allows to manually run the job at any time
   workflow_dispatch:
-  # TEMPORARY: lets the workflow run from the test branch; remove before merging
-  push:
-    branches:
-      - refactor/profile-stats
 permissions: {}
 concurrency:
   group: profile-stats
