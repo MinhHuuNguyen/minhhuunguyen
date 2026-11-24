@@ -60,29 +60,14 @@ jobs:
           output_action: none
           filename: metrics-streak.svg
           plugins_errors_fatal: yes
-      - name: metrics achievements
-        uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          user: ${{ github.repository_owner }}
-          template: classic
-          base: ""
-          plugin_achievements: yes
-          plugin_achievements_display: compact
-          plugin_achievements_threshold: C
-          retries: 1
-          retries_delay: 0
-          output_action: none
-          filename: metrics-achievements.svg
-          plugins_errors_fatal: yes
       - name: collect renders
         run: |
           mkdir -p dist
           sudo cp /metrics_renders/*.svg dist/
           ls -l dist
-      - name: assert all six images exist
+      - name: assert all five images exist
         run: |
-          for f in github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg metrics-stats.svg metrics-languages.svg metrics-streak.svg metrics-achievements.svg; do
+          for f in github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg metrics-stats.svg metrics-languages.svg metrics-streak.svg; do
             test -s "dist/$f" || { echo "::error::missing $f"; exit 1; }
           done
       # replaces the whole output branch with the content of dist
